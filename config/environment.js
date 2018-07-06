@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'remember',
     environment,
-    rootURL: '/',
+    rootURL: '/veterans-journal/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
