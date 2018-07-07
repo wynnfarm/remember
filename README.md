@@ -1,7 +1,10 @@
 # remember
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+ Our Nations Narrative of the untold service stories, successes and failures, documented by America's hero's for today's and tomorrow generation
+
+# credit
+
+Header Photo by: Samuel Branch on Unsplash
 
 ## Prerequisites
 
