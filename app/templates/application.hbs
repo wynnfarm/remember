@@ -1,7 +1,12 @@
 {{!-- The following component displays Ember's default welcome message. --}}
-<h1>header</h1>
-{{#link-to 'home'}}Home{{/link-to}}  {{#link-to 'about'}}About{{/link-to}}
-<h2>John was here</h2>{{!-- Feel free to remove this! --}}
+<div class='header'>
+  <img class='header' id="header-image" src="/veterans-journal/assets/images/header.jpg" alt="Header Image">
+</div>
+{{#bs-nav type=type justified=justified stacked=stacked as |nav|}}
+  {{#nav.item}}{{#nav.link-to "home"}}Home{{/nav.link-to}}{{/nav.item}}
+  {{#nav.item}}{{#nav.link-to "search"}}Search{{/nav.link-to}}{{/nav.item}}
+  {{#nav.item}}{{#nav.link-to "about"}}About{{/nav.link-to}}{{/nav.item}}
+{{/bs-nav}}
 
 
 {{outlet}}
